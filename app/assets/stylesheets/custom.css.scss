@@ -1,10 +1,11 @@
 .navbar {
   background-color: #080808 !important;
 }
-.nav-link
-{
-  color:white !important;
+
+.nav-link {
+  color: white !important;
 }
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -13,25 +14,33 @@
   letter-spacing: -1px;
   font-weight: bold;
 }
+
 #home-container {
   margin-top: 25px;
 }
-.card
-{
-  background-image: asset-url('jumbo-copy.jpg');
+
+#home-card {
+  background-image: url("jumbo-copy.jpg"); /* Correct path for the image */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
 }
-html, body {
-      height: 100%;
-    }
-    body {
-      display: flex;
-      flex-direction: column;
-      background-color: gray;
-    }
-    .sticky-bottom {
-      margin-top: auto;
-    }
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+.sticky-bottom {
+  margin-top: auto;
+}
