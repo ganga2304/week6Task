@@ -28,3 +28,4 @@ Things you may want to cover:
 
 This indicates that the correct path for the destroy action is indeed article_path(article), not articles_path. The confusion might come from the fact that articles_path is used for the index and create actions, while article_path(article) is used for actions that require an id, like show, edit, update, and destroy.
 
+unsplash

@@ -1,6 +1,19 @@
-Hello World!
-<h1>This is the home page</h1>
-<%= link_to 'Articles listing',articles_path %>  |
-
-<%= link_to 'About Page ',about_path %>  
-
+<div id="page-content">
+  <div class="container" id="home-container">
+    <div class="card text-center text-white my-5">
+      <div class="card-body">
+        <h1 class="card-title display-4">Alpha Blog</h1>
+        <p class="card-text lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4 bg-light">
+        <p class="card-text">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-success btn-lg" href="#" role="button">Sign up!</a>
+      </div>
+    </div>
+  </div>
+</div> <div class="sticky-bottom">
+    <footer class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; <%= link_to "CopyrightOffice", "https://copyright.gov.in/", class: "text-white" %></small>      
+     </div>
+    </footer>
+  </div>
